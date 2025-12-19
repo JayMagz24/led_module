@@ -1,0 +1,106 @@
+# ============================================================
+# KiCad Project Gitignore
+# Works for KiCad 6, 7, and 8
+# ============================================================
+
+# ─────────────────────────────
+# KiCad Backup / Autosave Files
+# ─────────────────────────────
+*.kicad_prl
+*.kicad_bak
+*.bak
+*~
+*.tmp
+*.autosave
+*.kicad_sch.lck
+*.kicad_pcb.lck
+fp-info-cache
+_autosave-*.kicad_pcb
+*.autosave
+
+# ─────────────────────────────
+# KiCad PCB / Schematic backups
+# ─────────────────────────────
+*-backups/
+*.sch-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# ─────────────────────────────
+# KiCad Symbol & Footprint Cache
+# ─────────────────────────────
+sym-lib-table-bak
+fp-lib-table-bak
+
+# ─────────────────────────────
+# KiCad Generated Files
+# Do NOT ignore .kicad_pcb, .kicad_sch, etc.
+# ─────────────────────────────
+*.net
+*.xml
+*.dsn
+*.ses
+*.gbrjob
+*.gtp
+*.gbr
+*.drl
+*.gbr
+*.zip
+
+# ─────────────────────────────
+# Gerber / Drill / Manufacturing output
+# Usually stored inside a folder like /gerbers or /fabrication
+# You may keep them if you want — but generally regenerated.
+# ─────────────────────────────
+gerbers/
+fabrication/
+manufacturing/
+out/
+plot/
+
+# ─────────────────────────────
+# Simulation output
+# ─────────────────────────────
+*.cir
+*.spice
+*.raw
+*.log
+
+# ─────────────────────────────
+# OS-specific junk
+# ─────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ─────────────────────────────
+# Editor junk
+# ─────────────────────────────
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# ─────────────────────────────
+# Python / Scripts cache
+# ─────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ─────────────────────────────
+# KiCad 3D model temporary build files
+# ─────────────────────────────
+*.step-temp
+*.stp-temp
